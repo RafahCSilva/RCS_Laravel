@@ -31,3 +31,15 @@ vagrant ssh
 
 ## WebPack
 
+
+
+## Swagger
+- Publicar Views 
+```bash
+artisan l5-swagger:publish-views
+```
+- Gerar Documentação
+```bash
+artisan l5-swagger:generate
+```
+
