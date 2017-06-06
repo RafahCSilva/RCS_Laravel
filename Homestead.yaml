@@ -1,0 +1,19 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/rafaelcardoso/www/RCS_Laravel
+        to: /home/vagrant/Code/rcslaravel
+sites:
+    -
+        map: rcs_laravel.dev
+        to: /home/vagrant/Code/rcslaravel/public
+databases:
+    - rcs-laravel
+name: rcs-laravel
+hostname: rcs-laravel

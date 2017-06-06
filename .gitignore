@@ -3,9 +3,18 @@
 /public/storage
 /storage/*.key
 /vendor
-/.idea
 /.vagrant
-Homestead.json
-Homestead.yaml
-npm-debug.log
+
+# Laravel 5 & Lumen specific
 .env
+
+# PhpStorm
+/.idea
+.phpstorm.meta.php
+_ide_helper.php
+npm-debug.log
+
+
+#/public/*
+#!/public/.htaccess
+#!/public/index.php
